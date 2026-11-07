@@ -42,8 +42,14 @@ No key? The web demo's **Fixtures mode** uses the pre-recorded responses in
 
 ## Demo
 
-- Live demo: <!-- TODO: paste the deployed demo link here -->
-- Video (30–60s): <!-- TODO: paste the demo video link here --> — script in
-  `demo-script.md`.
+- Live demo: run it locally — `cp .env.example .env` (add your
+  `CLOCKED_API_KEY`), `pip install -r requirements.txt`, `python app.py`,
+  then open the app; Fixtures mode works without a key. The live Clocked
+  test on the Sister sample returned: Marks PASS 99.0%, Income UNKNOWN,
+  Discipline UNKNOWN, 1 credit used (balance 19,997 / 20,000).
+- Video (30–60s): [demo-video.mp4](https://github.com/E-commerceeSkillSet/scholarship-saathi/blob/main/demo-video.mp4)
+  (59.34 s, Roman Urdu voiceover) — script in `demo-script.md`. Mirror:
+  https://muse.ai/files/1344834532050438/1641329460859782/x4jw7gc3hu013aed8re0j30c/demo-video.mp4
+  (expires 9 Nov 2026, 13:03 PKT).
 
 Built for the Clocked (Rezolve AI) Build Challenge.
